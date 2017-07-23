@@ -16,9 +16,9 @@ class ViewController: UIViewController {
 
     var imageArray = [UIImage]()
     
-    // 経過時間
+    // 経過時間用タイマー
     var timer1 = Timer()
-    // 画像を配列から出すスピード
+    // 画像処理用タイマー
     var timer2 = Timer()
     
     // 経過時間カウンター
@@ -38,8 +38,6 @@ class ViewController: UIViewController {
         
         imageArray = [IMG_0!,IMG_1!,IMG_2!,IMG_3!, IMG_4!, IMG_5!]
     }
-
-    
     
     @IBAction func start(_ sender: Any) {
         //経過時間を初期化する
